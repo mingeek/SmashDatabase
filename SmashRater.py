@@ -174,7 +174,7 @@ for url in url_list:
 		sets = smash.tournament_show_sets(tournament_name, 'melee-singles')
 		winners_set_count = losers_set_count = 0
 		for match in sets:
-			#TODO: split this nigga
+			#TODO: split this
 			round_num = match['short_round_text'][1:]
 			if round_num.isdigit():
 				if match['short_round_text'][0] == "W":
